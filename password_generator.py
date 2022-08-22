@@ -3,6 +3,7 @@ import string
 
 
 def main():
+    """Documentation about main function"""
     pass_length = length_of_password()
     gen = generator_of_password(pass_length)
     print(f"Your password: {gen}")
