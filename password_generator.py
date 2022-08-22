@@ -10,6 +10,7 @@ def main():
 
 
 def length_of_password():
+    """Spec. documentation for Cherry-pick -edit. Because we need to edit commit, which we take"""
     length = int(input("Length of password: "))
     return length
 
