@@ -16,6 +16,7 @@ def length_of_password():
 
 
 def generator_of_password(length):
+    """Doc. special for meet with Ira. Cherry-pick use."""
     options_for_pass = string.digits + string.ascii_letters + string.ascii_uppercase + string.punctuation
     generate_pass = ''.join(secrets.choice(options_for_pass) for _ in range(length))
     return generate_pass
